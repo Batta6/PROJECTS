@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#gallery">Gallery</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#blog">Blog</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#media">Media</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="" alt="My photo">
+        <p>Hello Iam a New Web developer.</p>
+        <dl>
+            <dt>Name</dt>
+            <dd>Manoj</dd>
+            <dt>Location</dt>
+            <dd>Hyderabad,India</dd>
+            <dt>Profession</dt>
+            <dd>Frontend Developer</dd>
+        </dl>
+    </section>
+
+    <!-- Projects Section with TABLE -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Technologies</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>HTML, CSS</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>Task Manager App</td>
+                    <td>JavaScript, Node.js</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Weather Dashboard</td>
+                    <td>React, API</td>
+                    <td>2023</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>HTML <progress value="90" max="100"></progress></p>
+        <p>CSS <progress value="80" max="100"></progress></p>
+        <p>JavaScript <progress value="70" max="100"></progress></p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <figure>
+            <picture>
+                <source srcset="" media="(min-width: 600px)">
+                <img src="" alt="Gallery Image">
+            </picture>
+            <figcaption>Responsive Design Screenshot</figcaption>
+        </figure>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Why I Love Web Development</h3>
+            <p>It allows me to combine creativity with problem-solving</p>
+        </article>
+        <aside>
+            <h4>Related Links</h4>
+            <ul>
+                <li><a href="">About HTML</a></li>
+                <li><a href="">About CSS</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2>FAQ</h2>
+        <details>
+            <summary>What technologies do you use?</summary>
+            <p>HTML, CSS, JavaScript, React, Node.js</p>
+        </details>
+        <details>
+            <summary>Are you available for freelance?</summary>
+            <p>Yes! Feel free to contact me using the form above.</p>
+        </details>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>Media</h2>
+        <h3>Intro Video</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="video player" frameborder="0" allowfullscreen></iframe>
+        
+        <h3>Audio Intro</h3>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Manoj</p>
+        <address>OPPTY TECH HUB ,Hyderabad</address>
+        <p>Last updated: <time datetime="2025-10-06">October 6, 2025</time></p>
+    </footer>
+
+</body>
+</html>
