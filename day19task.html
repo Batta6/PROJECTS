@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day19</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 100px;
+            left:100px;
+            background-color: aqua;
+            z-index: -1;
+            opacity: 0.8;
+        }
+        .box1{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 50px;
+            left:50px;
+            background-color:greenyellow;
+            z-index: 0;
+            opacity: 0.8;
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 100px;
+            left:100px;
+            background-color:green;
+            z-index: 1;
+            opacity: 0.8;
+        }
+        .box3{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 150px;
+            left:150px;
+            background-color:burlywood;
+            z-index: 2;
+            opacity: 0.8;
+        }
+        .box4{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 200px;
+            left:200px;
+            background-color:red;
+            z-index: 3;
+            opacity: 0.8;
+        }
+        .box5{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 250px;
+            left:250px;
+            background-color:rebeccapurple;
+            z-index:4;
+            opacity: 0.8;
+        }
+        .box6{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            margin-right: 500px;
+            top: 50px;
+            right:50px;
+            background-color:rebeccapurple;
+            z-index:2;
+            opacity: 0.8;
+        }
+        .box7{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            margin-right: 500px;
+            top: 100px;
+            right:100px;
+            background-color:purple;
+            z-index:1;
+            opacity: 0.8;
+        }
+        .box8{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            margin-right: 500px;
+            top: 150px;
+            right:150px;
+            background-color:blue;
+            z-index:0;
+            opacity: 0.8;
+        }
+        .box9{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            margin-right: 500px;
+            top: 200px;
+            right:200px;
+            background-color:yellow;
+            z-index:-1;
+            opacity: 0.8;
+        }
+        .card{
+            padding:500px;
+        }
+        .card1{
+           height: 300px;
+           width: 500px;
+            background-color: lightblue;
+            box-shadow: 5px 5px lightgray;
+            border-radius: 50px;
+        }
+        .badge{
+            position: absolute;
+            padding: 8px 20px;
+            font-weight: bold;
+            right: 300px;
+            top: 530px;
+            z-index:0;
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+            font-size: 20px;
+            opacity: 0.8;
+        }
+        button{
+            margin-left: 500px;
+            padding: 50px 100px;
+            font-size: 24px;
+        }
+        a button:hover{
+            background-color: aqua;
+        }
+        a button:active{
+            background-color:darkblue;
+        }
+        p::first-letter{
+            font-size: 40px;
+            color: green;
+        }
+        ul{
+            list-style: none;
+        }
+        li:nth-child(1){
+            color: green;
+            font-size: 20px;
+        }
+        li::before{
+            content: "👉";
+        }
+        li:nth-child(2){
+            color: blueviolet;
+            font-size: 20px;
+        }
+        li:nth-child(3){
+            color: red;
+            font-size: 20px;
+        }
+        li:nth-child(4){
+            color: yellow;
+            font-size: 20px;
+        }
+        li:nth-child(5){
+            color: blue;
+            font-size: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <div class="box7"></div>
+    <div class="box8"></div>
+    <div class="box9"></div>
+    <section class="card">
+        <div class="card1">
+             <span class="badge">New</span>
+        </div>
+    </section>
+    <section class="btn">
+        <a href="#" target="new"><button>click here to see something</button></a>
+    </section><br><br>
+    <div>
+        <p>Nandamuri Taraka Rama Rao (28 May 1923 – 18 January 1996),[1] often referred to by his initials NTR, was an Indian actor, film director, film producer, screenwriter, film editor, philanthropist, and politician who served as the Chief Minister of Andhra Pradesh for seven years over four terms.</p>
+        <p>He founded the Telugu Desam Party (TDP) in 1982, the first regional party of Andhra Pradesh. He is regarded as one of the most influential figures of Indian cinema.[2] He starred in over 300 films, predominantly in Telugu cinema, and was referred to as "Viswa Vikhyatha Nata Sarvabhouma" (transl. Universally-renowned star of acting).[3] He was one of the earliest method actors of Indian cinema.[4] In 2013, Rao was voted as "Greatest Indian Actor of All Time" in a CNN-IBN national poll conducted on the occasion of the Centenary of Indian Cinema.[5][6]</p>
+        <p>Rama Rao has received numerous honours and accolades, including the Padma Shri in 1968. He also received three National Film Awards for co-producing Thodu Dongalu (1954) and Seetharama Kalyanam (1960) under National Art Theater, Madras,[7] and for directing Varakatnam (1970).[8] Rao garnered the Nandi Award for Best Actor for Kodalu Diddina Kapuram in 1970, and the Inaugural Filmfare Award for Best Actor – Telugu in 1972 for Badi Panthulu.[9][10]</p>
+    </div>
+    <ul>
+        <li class="a">Manoj</li>
+        <li class="b">Indu</li>
+        <li class="c">Aswi</li>
+        <li class="d">Adi</li>
+        <li class="e">Lalli</li>
+    </ul>
+    
+    
+</body>
+</html>
