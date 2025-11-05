@@ -465,10 +465,66 @@ body {
    box-shadow:3px 3px 10px 10px #a4a4a5;
 }
 .test{
-    background-image:url('testi.jpg');
-    position: fixed;
+    background: url(testi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff8f8;
 }
 .test1{
+   position: relative;
+    padding: 30px;
+    border-radius: 15px;
+    background: #fff;
+    color: #676576;
+    margin-left: 50px;
+    margin-right: 850px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    
+}
+.test1 img{
+    margin-top: 100px;
+}
+.fa-quote-right{
+    font-size: 75px;
+    color: #ff5252;
+    margin-top: 10px;
+}
+.tes1{
+    margin-left: 100px;
+    margin-top: -60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.tes2{
+    margin-left: 100px;
+    
+}
+.test2{
+   position: relative;
+    padding: 30px;
+    border-radius: 15px;
+    background: #fff;
+    color: #676576;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: -267px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    
+}
+.test3{
+   position: relative;
+    padding: 30px;
+    border-radius: 15px;
+    background: #fff;
+    color: #676576;
+    margin-left: 850px;
+    margin-right: 50px;
+    margin-top: -267px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
     
 }
 .foot{
